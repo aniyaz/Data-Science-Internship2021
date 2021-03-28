@@ -19,16 +19,21 @@
   
     /*==================================================================
     [ Validate ]*/
-    var name = $('.validate-input input[name="name"]');
-    var email = $('.validate-input input[name="email"]');
-    var message = $('.validate-input textarea[name="message"]');
+    var bedroom = $('.validate-input input[name="bedroom"]');
+    var bathroom = $('.validate-input input[name="bathroom"]');
+    var surface = $('.validate-input input[name="surface"]');
+    var longitude = $('.validate-input input[name="longitude"]');
+    var latitude = $('.validate-input input[name="latitude"]');
+
+    // var email = $('.validate-input input[name="email"]');
+    // var message = $('.validate-input textarea[name="message"]');
 
 
     $('.validate-form').on('submit',function(){
         var check = true;
 
-        if($(name).val().trim() == ''){
-            showValidate(name);
+        if($(bedroom).val().trim() == ''){
+            showValidate(bedroom);
             check=false;
         }
 
@@ -38,8 +43,20 @@
             check=false;
         }
 
-        if($(message).val().trim() == ''){
-            showValidate(message);
+        if($(bathroom).val().trim() == ''){
+            showValidate(bathroom);
+            check=false;
+        }
+        if($(surface).val().trim() == ''){
+            showValidate(surface);
+            check=false;
+        }
+        if($(longitude).val().trim() == ''){
+            showValidate(longitude);
+            check=false;
+        }
+        if($(latitude).val().trim() == ''){
+            showValidate(latitude);
             check=false;
         }
 

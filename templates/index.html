@@ -32,7 +32,7 @@
 		<div class="wrap-contact100">
 			<form action="predict" method="POST" class="contact100-form validate-form">
 				<span class="contact100-form-title">
-					Dublin House Price Prediction
+					Dublin Price Prediction
 				</span>
 
 				<div class="wrap-input100 validate-input" data-validate="Required">
@@ -105,7 +105,7 @@
                     
                         {% block content %}
                             {% if flag %}
-                                <span class="contact100-form-title">{{ prediction_text }}</span>
+                                <span class="font-weight-bold text-center">{{ prediction_text }}</span>
                             {% else %}
                                 <span></span>
                             {% endif %}

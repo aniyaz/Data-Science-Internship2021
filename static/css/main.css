@@ -166,7 +166,7 @@ iframe {
 }
 
 .wrap-contact100 {
-  width: 500px;
+  width: 600px;
   background: #fff;
   border-radius: 10px;
   overflow: hidden;
@@ -184,11 +184,11 @@ iframe {
 .contact100-form-title {
   display: block;
   font-family: Poppins-Bold;
-  font-size: 39px;
+  font-size: 30px;
   color: #333333;
   line-height: 1.2;
   text-align: center;
-  padding-bottom: 44px;
+  padding-bottom: 40px;
 }
 
 
@@ -561,7 +561,11 @@ textarea.input100 {
   line-height: 1.2;
 }
 
-
+.predict-str {
+  font-size: medium;
+  color: chartreuse;
+  text-align: center;
+}
 
 
 
