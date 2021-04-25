@@ -3,6 +3,13 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+#odt files
+*.odt
+*.ods
+*.csv
+*.xlsx
+*.sav
+
 # C extensions
 *.so
 
