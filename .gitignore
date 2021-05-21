@@ -8,7 +8,6 @@ __pycache__/
 *.ods
 *.csv
 *.xlsx
-*.sav
 
 # C extensions
 *.so
